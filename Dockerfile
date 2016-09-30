@@ -1,5 +1,7 @@
 FROM frolvlad/alpine-glibc:alpine-3.4
 
+RUN apk add --no-cache git
+
 ENV JAVA_VERSION=8 \
     JAVA_UPDATE=102 \
     JAVA_BUILD=14 \
